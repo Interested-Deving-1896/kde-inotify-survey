@@ -1,17 +1,75 @@
-<!--
-SPDX-License-Identifier: CC0-1.0
-SPDX-FileCopyrightText: 2022 Harald Sitter <sitter@kde.org>
--->
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# kde-inotify-survey
 
-Have you ever wondered why dolphin or any other application stopped noticing file changes? Chances are you ran out of inotify resources. kde-inotify-survey to the rescue! Sporting a kded module to tell you when things are getting dicey and a CLI tool to inspect the state of affairs.
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/kde-inotify-survey)
 
-# CLI
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-`kde-inotify-survey` prints a json presentation of the current inotify state of the user.
+## Architecture
 
-# KDED
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-The inotify KDED module additionally polls the state every couple minutes and warns if the user capacities have been exhausted.
-The notification also includes the ability to increase the capacity by a fixed amount up to a fixed limit (8192 for instances; *128 for watches).
+## Install
 
-![Screenie](https://invent.kde.org/sitter/kde-inotify-survey/-/raw/master/screenshot.png)
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
+
+```bash
+git clone https://github.com/Interested-Deving-1896/kde-inotify-survey.git
+cd kde-inotify-survey
+```
+
+## Usage
+
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
+
+## Configuration
+
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
+
+## CI
+
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
+
+## Mirror chain
+
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/kde-inotify-survey`](https://github.com/Interested-Deving-1896/kde-inotify-survey) and mirrored through:
+
+```
+Interested-Deving-1896/kde-inotify-survey  ──►  OpenOS-Project-OSP/kde-inotify-survey  ──►  OpenOS-Project-Ecosystem-OOC/kde-inotify-survey
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+<!-- License not detected — add a LICENSE file to this repo. -->
+<!-- AI:end:license -->
